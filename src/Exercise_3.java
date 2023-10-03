@@ -9,6 +9,7 @@ public class Exercise_3 {
             text1 = input.nextLine();
             splitString(text1);
         }
+        input.close();
     }
     public static void splitString (String t1) {
         for (int i=0; i<t1.length(); i++) {
